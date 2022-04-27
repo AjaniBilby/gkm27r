@@ -13,6 +13,7 @@ VIA_ENABLE = yes
 
 USB_POLLING_INTERVAL_MS = 1
 
-DEBOUNCE_TYPE = sym_eager_pk
+# DEBOUNCE_TYPE = sym_eager_pk
+DEBOUNCE_TYPE = asym_eager_defer_pk
 
-# COMBO_ENABLE = no
+COMBO_ENABLE = no
