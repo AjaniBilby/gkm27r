@@ -38,6 +38,7 @@
 
 #define RGBLIGHT_ANIMATIONS
 #define RGB_MATRIX_LED_FLUSH_LIMIT 33 // 30fps (32ms frame time)
+#define RGB_DISABLE_WHEN_USB_SUSPENDED
 
 #if defined RGB_MATRIX_ENABLE
 #  define RGB_MATRIX_KEYPRESSES   // reacts to keypresses
